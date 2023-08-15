@@ -5,7 +5,9 @@ class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         
         return "".join(ch[0] for ch in takewhile(lambda c: len(set(c))==1, zip(*strs)))
-    
+
+#==============================================================================
+
 class TestSolution(unittest.TestCase):
 
     def test_longestCommonPrefix_1(self):

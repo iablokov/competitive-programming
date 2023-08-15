@@ -12,6 +12,8 @@ function longestCommonPrefix(strs: string[]): string
     return strs.reduce(prefix, strs[0]);
 };
 
+//============================================================================
+
 function test()
 {
     test_longestCommonPrefix_1();
