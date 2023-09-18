@@ -21,7 +21,7 @@ class BinaryHeap:
 
     def bubble_down(self, i: int = 0):
         while True:
-            j, l, r = i, 2 * i + 1, 2 * i + 2  # child indeces
+            j, l, r = i, 2 * i + 1, 2 * i + 2  # child indices
             if self.minh:
                 if l < len(self.data) and self.data[l] < self.data[j] : j = l
                 if r < len(self.data) and self.data[r] < self.data[j] : j = r

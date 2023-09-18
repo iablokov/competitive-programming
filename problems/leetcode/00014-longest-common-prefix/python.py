@@ -1,4 +1,3 @@
-import unittest
 from itertools import takewhile
 
 class Solution:
@@ -7,6 +6,8 @@ class Solution:
         return "".join(ch[0] for ch in takewhile(lambda c: len(set(c))==1, zip(*strs)))
 
 #==============================================================================
+
+import unittest
 
 class TestSolution(unittest.TestCase):
 

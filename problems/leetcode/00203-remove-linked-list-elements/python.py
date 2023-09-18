@@ -53,27 +53,27 @@ class TestSolution(unittest.TestCase):
 
     def test_removeElements_2(self):
             
-            node_vals_inp = []
-            node_vals_exp = []
-            val = 1
-            
-            head = list_to_linked_list(node_vals_inp)
-            head = Solution().removeElements(head, val)
-            node_vals_out = linked_list_to_list(head)
-    
-            self.assertEqual(node_vals_exp, node_vals_out)
+        node_vals_inp = []
+        node_vals_exp = []
+        val = 1
+        
+        head = list_to_linked_list(node_vals_inp)
+        head = Solution().removeElements(head, val)
+        node_vals_out = linked_list_to_list(head)
+
+        self.assertEqual(node_vals_exp, node_vals_out)
 
     def test_removeElements_3(self):
             
-            node_vals_inp = [7,7,7,7]
-            node_vals_exp = []
-            val = 7
-            
-            head = list_to_linked_list(node_vals_inp)
-            head = Solution().removeElements(head, val)
-            node_vals_out = linked_list_to_list(head)
-    
-            self.assertEqual(node_vals_exp, node_vals_out)
+        node_vals_inp = [7,7,7,7]
+        node_vals_exp = []
+        val = 7
+        
+        head = list_to_linked_list(node_vals_inp)
+        head = Solution().removeElements(head, val)
+        node_vals_out = linked_list_to_list(head)
+
+        self.assertEqual(node_vals_exp, node_vals_out)
 
 if __name__ == '__main__':
     unittest.main()
