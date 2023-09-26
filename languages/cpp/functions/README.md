@@ -22,3 +22,7 @@ function<int(int)> dfs = [&](int n) -> int
 int n = 10;
 int fib = dfs(n);
 ```
+The main features making the code compact are:
+* the capture of cache variable implicitly using `[&]`;
+* the use of structured bindings in the if statement;
+* the use of combined assignment and return.
