@@ -13,7 +13,7 @@ for (n1, n2) in zipped { print!("({n1},{n2}) "); }
 The output for the code above is `(1,4) (2,5)`.
 
 #### Problem list:
-* ##### [14. [Easy] Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) ( solution : [GitHub](./../../problems/leetcode/00014-longest-common-prefix) [LeetCode](https://leetcode.com/problems/longest-common-prefix/solutions/3869696/python-rust-functional-solution/) )
+* ##### [14. [Easy] Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) ( solution : [GitHub](./../../../solutions/leetcode/00014-longest-common-prefix) [LeetCode](https://leetcode.com/problems/longest-common-prefix/solutions/3869696/python-rust-functional-solution/) )
 
 ## binary_search / binary_search_by / binary_search_by_key
 
@@ -33,7 +33,7 @@ match result
 
 
 #### Problem list:
-* ##### [74. [Medium] Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) ( solution : [GitHub](./../../problems/leetcode/00074-search-a-2d-matrix) )
+* ##### [74. [Medium] Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) ( solution : [GitHub](./../../../solutions/leetcode/00074-search-a-2d-matrix) )
 
 
 ## reduce
@@ -44,4 +44,4 @@ To...
 reduce
 ```
 
-* ##### [136. [Easy] Single Number](https://leetcode.com/problems/single-number/) ( solution : [GitHub](./../../problems/leetcode/00074-search-a-2d-matrix) )
+* ##### [136. [Easy] Single Number](https://leetcode.com/problems/single-number/) ( solution : [GitHub](./../../../solutions/leetcode/00074-search-a-2d-matrix) )
